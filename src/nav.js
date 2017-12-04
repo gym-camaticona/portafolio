@@ -30,7 +30,7 @@ const Nav = () => {
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                   <ul class="nav navbar-nav">
                     <li>
-                      <NavLink className="navlii" to="/yo"><p>INICIO</p></NavLink>
+                      <NavLink className="navlii" to="/home"><p>INICIO</p></NavLink>
                     </li>
                     <li>
                       <NavLink className="navli" to="/aboutme"><p>Acerca de mi</p></NavLink>
@@ -38,7 +38,7 @@ const Nav = () => {
                     <li>
                       <NavLink className="navli" to="/habilidades"><p>Habilidades</p></NavLink></li>
                     <li>
-                      <NavLink className="navli" to="/portafolio"><p>Portafolio</p></NavLink></li>
+                      <NavLink className="navli" to="/portafo"><p>Portafolio</p></NavLink></li>
                     <li>
                       <NavLink className="navli" to="/contactme"><p>Contactame</p></NavLink>
                     </li>
