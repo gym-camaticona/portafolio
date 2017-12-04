@@ -11,7 +11,7 @@ import Nav from './nav';
 import Yo from './yo';
 import Contactme from './contactme';
 import Habilidades from './habilidades';
-import Portafolio from './portafo';
+import Portafo from './portafo';
 
 const App = () => {
   return (
@@ -26,7 +26,7 @@ const App = () => {
       <Habilidades />
       </div>
       <div className="four parallax" > 
-      <Portafolio />
+      <Portafo />
       </div>
       <div className="five parallax"> 
       < Contactme />

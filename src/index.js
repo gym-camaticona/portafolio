@@ -11,7 +11,7 @@ import { Switch, Route, NavLink, Redirect, BrowserRouter } from 'react-router-do
 import Aboutme from './aboutme';
 import Mas from './mas';
 import Habilidades from './habilidades';
-import Portafolio from './portafo';
+import Portafo from './portafo';
 import Contactme from './contactme';
 
 const Index = () => {
@@ -23,7 +23,7 @@ return(
                     <Route path='/aboutme' component={Aboutme} />
 					<Route path='/mas' component={Mas} />
 					<Route path='/habilidades' component={Habilidades} />
-					<Route path='/portafolio' component={Portafolio} />
+					<Route path='/portafolio' component={Portafo} />
 					<Route path='/contactme' component={Contactme} />
 					<Route component={App} />
 				</Switch>
