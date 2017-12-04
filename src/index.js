@@ -19,7 +19,7 @@ return(
 		<BrowserRouter>
 				<Switch>
 					<Route exact path='/' component={App} />
-					<Route path='/home' component={App} />
+					{/* <Route path='/home' component={App} /> */}
                     <Route path='/aboutme' component={Aboutme} />
 					<Route path='/mas' component={Mas} />
 					<Route path='/habilidades' component={Habilidades} />
