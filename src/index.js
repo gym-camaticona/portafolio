@@ -23,7 +23,7 @@ return(
                     <Route path='/aboutme' component={Aboutme} />
 					<Route path='/mas' component={Mas} />
 					<Route path='/habilidades' component={Habilidades} />
-					<Route path='/portafolio' component={Portafo} />
+					<Route path='/portafo' component={Portafo} />
 					<Route path='/contactme' component={Contactme} />
 					<Route component={App} />
 				</Switch>
