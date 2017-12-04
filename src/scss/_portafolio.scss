@@ -1,0 +1,133 @@
+.parallax4{
+    background: #D41010 fixed no-repeat 50% 50%;
+    background-size: cover;
+  }
+
+.four-page{
+    background-image: url('../images/blanco.jpg');
+    background-size: cover;
+    background-repeat: no-repeat 50% 50%;
+    height: 100vh; 
+}
+
+.style{
+    width:70%;
+}
+
+.glyphicon,.sr-only{
+    font-size: 50px;
+    color: blue;
+    background: white;   
+}
+
+.port{
+// margin-left: 10%;
+    width: 80%;
+    height: 100vh;
+}
+// .row{
+//     margin: -15px;
+// }
+.show-grid-portafolio{
+    margin-top: 5%;
+    // margin-right: 0px;
+    // padding-right: 0px;
+}
+
+.imgportfolio-m{
+    width: 80%;
+}
+
+/////////////////////////////////////////////////
+.imgportafolio1{
+    // margin-top: 2%;
+    // padding: 1%;
+    width: 100%;
+    height: 35vh;
+    background-image: url('../images/p-1.png');
+    background-size: cover;
+    // visibility: hidden;
+} 
+
+.imgportafolio2{
+    width: 100%;
+    height: 35vh;
+    background-image: url('../images/p-2.png');
+    background-size: cover;
+}
+ .imgportafolio3{
+    width: 100%;
+    height: 35vh;
+    background-image: url('../images/p-3.png');
+    background-size: cover;
+} 
+  
+
+.imgportafolio1  i{
+
+    visibility: hidden;
+}
+
+.imgportafolio1:hover i{
+    text-align: center;
+    margin-top: 15%;
+    visibility: visible;  
+    left: 50%;
+    right: 50%;
+}
+
+.imgportafolio1:hover{
+    background: rgb(255, 255, 255);
+}
+    
+.imgportafolio2  i{
+    
+        visibility: hidden;
+    }
+    
+    .imgportafolio2:hover i{
+        text-align: center;
+        margin-top: 15%;
+        visibility: visible;  
+        left: 50%;
+        right: 50%;
+    }
+    
+    .imgportafolio2:hover{
+        background: rgb(255, 255, 255);
+    }
+
+    .imgportafolio3  i{
+        
+            visibility: hidden;
+        }
+        
+        .imgportafolio3:hover i{
+            text-align: center;
+            margin-top: 15%;
+            visibility: visible;  
+            left: 50%;
+            right: 50%;
+        }
+        
+        .imgportafolio3:hover{
+            background: rgb(255, 255, 255);
+        }
+
+
+
+////////////////////////////////////////////////////
+
+@media only screen and (max-width: 903px) {
+    .port{
+        margin-left: 0%;
+        width: 100%;
+    }
+    .one-page.two-page.four-page.five-page{
+        background-repeat: no-repeat 50% 50%;
+    }
+    .imgportafolio1, .imgportafolio2,.imgportafolio3{
+        width: 100%;
+        height: 25vh;
+    }    
+}

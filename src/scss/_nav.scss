@@ -1,0 +1,60 @@
+@import '_variables';
+.row{
+  width: 100%;
+  border: 0px;
+  padding: 0px -15px;
+  }
+.y-web-nav {
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+    background:rgb(255, 255, 255);
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    text-align: center;
+    // padding: 0PX;
+    z-index: 100;
+    left: 0px;
+}
+      
+  .y-menu{
+    width: 100%;
+    padding: 0px;
+    margin-top: 10%;
+  }
+
+    .navli{
+        font-family: Century;
+        color:rgb(3, 11, 49);
+        list-style: none;
+        padding: 2%;
+        // padding-left: 5%;
+      }
+
+    .navname{
+      color:white;
+      text-align: center; 
+      list-style: none;    
+    }
+  
+  // .m-moto{
+  //   color: $color-white;
+  // }
+   
+  .navli:hover{
+    color: rgb(3, 11, 49);
+    text-decoration: none;
+  }
+    
+  .nav:hover{
+  background: $color-white;
+  }
+
+
+.navlii{
+  z-index: 100;
+}
+
+.navbar-header, .container-fluid{
+  background: rgb(255, 255, 255);
+}

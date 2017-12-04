@@ -1,0 +1,71 @@
+@import '_variables';
+.contac{
+    text-align: $text-align;
+    // margin-top: 5%;
+}
+.parallax5{
+    background: #D41010 fixed no-repeat 50% 50%;
+    background-size: cover;
+  }
+
+.five-page{
+        background-image: url('../images/blanco.jpg');
+        background-size: cover;
+        background-repeat: no-repeat 50% 50%;
+        height: 100vh; 
+    }
+      
+.icon{
+    border-bottom: solid 2px $color-white;
+    border-right: solid 2px $color-white;
+}       
+
+.red{
+    color:  rgb(1, 29, 155);
+    font-size: 100%;
+}                       
+
+i{
+    color: rgb(1, 29, 155);
+}
+
+i:hover{
+    color: #2C2C2C;
+
+}
+
+.contactame{
+    text-align: center;
+    color: $color-white;
+}
+
+.icon-contact{
+    text-align: center;
+}
+
+.show-grid-contactame{
+    margin-top: 10%;
+}
+
+.form-contactame{
+    padding: 8%;
+}
+
+.mass{
+    background:hsl(229, 65%, 26%);
+    color:$color-white;
+    width: 20%;
+    text-align: center;
+}
+@media only screen and (max-width: 995px) {
+    .form-contactame{
+        padding: 2%;
+    }
+
+    .icon-contact{
+        margin-top: 10%;
+    }
+  
+  }
+  
+  

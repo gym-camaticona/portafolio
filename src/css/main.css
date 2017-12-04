@@ -1,0 +1,432 @@
+.skill {
+  padding: 1%;
+  margin-top: 60%; }
+
+.parallax3 {
+  background: #D41010 fixed no-repeat 50% 50%;
+  background-size: cover; }
+
+.three-page {
+  background-image: url("../images/blanco.jpg");
+  background-size: cover;
+  background-repeat: no-repeat 50% 50%;
+  height: 100vh; }
+
+.imghab {
+  width: 90%;
+  margin: 10% 0%; }
+
+.colorblue {
+  color: blue; }
+
+.grid {
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%); }
+
+.p-habilidades {
+  color: #0347C7; }
+
+.grid:hover {
+  -webkit-filter: grayscale(0%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%); }
+
+.show-grid-habilidades {
+  margin-top: 5%; }
+
+i {
+  font-size: 700%; }
+
+.habilidadesicon {
+  margin-top: 2%; }
+
+.absuluto {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; }
+
+@media only screen and (max-width: 903px) {
+  .parallax3 {
+    background: #D41010 fixed no-repeat 50% 50%;
+    background-size: cover; }
+
+  .three-page {
+    position: relative;
+    background-image: url("../images/blanco.jpg");
+    background-size: cover;
+    background-repeat: no-repeat 50% 50%;
+    height: 100vh; }
+
+  .three-page {
+    font-size: 10px; } }
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px; }
+
+.container {
+  width: 100%; }
+
+.row {
+  width: 100%;
+  border: 0px;
+  padding: 0px -15px; }
+
+.y-web-nav {
+  font-weight: bold;
+  color: black;
+  background: white;
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  text-align: center;
+  z-index: 100;
+  left: 0px; }
+
+.y-menu {
+  width: 100%;
+  padding: 0px;
+  margin-top: 10%; }
+
+.navli {
+  font-family: Century;
+  color: #030b31;
+  list-style: none;
+  padding: 2%; }
+
+.navname {
+  color: white;
+  text-align: center;
+  list-style: none; }
+
+.navli:hover {
+  color: #030b31;
+  text-decoration: none; }
+
+.nav:hover {
+  background: white; }
+
+.navlii {
+  z-index: 100; }
+
+.navbar-header, .container-fluid {
+  background: white; }
+
+.contac {
+  text-align: center; }
+
+.parallax5 {
+  background: #D41010 fixed no-repeat 50% 50%;
+  background-size: cover; }
+
+.five-page {
+  background-image: url("../images/blanco.jpg");
+  background-size: cover;
+  background-repeat: no-repeat 50% 50%;
+  height: 100vh; }
+
+.icon {
+  border-bottom: solid 2px white;
+  border-right: solid 2px white; }
+
+.red {
+  color: #011d9b;
+  font-size: 100%; }
+
+i {
+  color: #011d9b; }
+
+i:hover {
+  color: #2C2C2C; }
+
+.contactame {
+  text-align: center;
+  color: white; }
+
+.icon-contact {
+  text-align: center; }
+
+.show-grid-contactame {
+  margin-top: 10%; }
+
+.form-contactame {
+  padding: 8%; }
+
+.mass {
+  background: #17276d;
+  color: white;
+  width: 20%;
+  text-align: center; }
+
+@media only screen and (max-width: 995px) {
+  .form-contactame {
+    padding: 2%; }
+
+  .icon-contact {
+    margin-top: 10%; } }
+.parallax4 {
+  background: #D41010 fixed no-repeat 50% 50%;
+  background-size: cover; }
+
+.four-page {
+  background-image: url("../images/blanco.jpg");
+  background-size: cover;
+  background-repeat: no-repeat 50% 50%;
+  height: 100vh; }
+
+.style {
+  width: 70%; }
+
+.glyphicon, .sr-only {
+  font-size: 50px;
+  color: blue;
+  background: white; }
+
+.port {
+  width: 80%;
+  height: 100vh; }
+
+.show-grid-portafolio {
+  margin-top: 5%; }
+
+.imgportfolio-m {
+  width: 80%; }
+
+.imgportafolio1 {
+  width: 100%;
+  height: 35vh;
+  background-image: url("../images/p-1.png");
+  background-size: cover; }
+
+.imgportafolio2 {
+  width: 100%;
+  height: 35vh;
+  background-image: url("../images/p-2.png");
+  background-size: cover; }
+
+.imgportafolio3 {
+  width: 100%;
+  height: 35vh;
+  background-image: url("../images/p-3.png");
+  background-size: cover; }
+
+.imgportafolio1 i {
+  visibility: hidden; }
+
+.imgportafolio1:hover i {
+  text-align: center;
+  margin-top: 15%;
+  visibility: visible;
+  left: 50%;
+  right: 50%; }
+
+.imgportafolio1:hover {
+  background: white; }
+
+.imgportafolio2 i {
+  visibility: hidden; }
+
+.imgportafolio2:hover i {
+  text-align: center;
+  margin-top: 15%;
+  visibility: visible;
+  left: 50%;
+  right: 50%; }
+
+.imgportafolio2:hover {
+  background: white; }
+
+.imgportafolio3 i {
+  visibility: hidden; }
+
+.imgportafolio3:hover i {
+  text-align: center;
+  margin-top: 15%;
+  visibility: visible;
+  left: 50%;
+  right: 50%; }
+
+.imgportafolio3:hover {
+  background: white; }
+
+@media only screen and (max-width: 903px) {
+  .port {
+    margin-left: 0%;
+    width: 100%; }
+
+  .one-page.two-page.four-page.five-page {
+    background-repeat: no-repeat 50% 50%; }
+
+  .imgportafolio1, .imgportafolio2, .imgportafolio3 {
+    width: 100%;
+    height: 25vh; } }
+.about {
+  background: rgba(6, 21, 88, 0.9);
+  border-right: solid 2px #2E2D2D;
+  border-bottom: solid 2px #2E2D2D;
+  color: white; }
+
+.mas {
+  background: #17276d;
+  color: white;
+  width: 50%;
+  text-align: center; }
+
+.parallax2 {
+  background: #D41010 fixed no-repeat 50% 50%;
+  background-size: cover; }
+
+.two-page {
+  background-image: url("../images/two.jpg");
+  background-size: cover;
+  background-repeat: no-repeat 50% 50%;
+  height: 100vh;
+  background-color: rgba(6, 21, 88, 0.5); }
+
+.contenido-aboutme {
+  z-index: 1000; }
+
+.abouttext {
+  background: rgba(6, 21, 88, 0.5);
+  height: 80%; }
+
+.imggladys .y-logo {
+  -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+  border-radius: 5em/5em; }
+
+.title {
+  font-family: 'Vollkorn SC', serif;
+  text-align: left;
+  color: #011d9b;
+  font-weight: bold;
+  margin-top: 3%;
+  margin-left: 5%; }
+
+.title-aboutme {
+  margin-top: 0px;
+  padding-top: 10%;
+  margin-left: 55%; }
+
+.y-logo {
+  margin: 0px; }
+
+.logo-gladys {
+  width: 80%; }
+
+p {
+  font-size: 120%;
+  font-family: 'Vollkorn SC', serif;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0%; }
+
+.show-grid-acerca {
+  margin-top: 7%; }
+
+.yotexto {
+  margin-top: 2%; }
+
+.mas {
+  margin-top: 5%;
+  width: 30%; }
+
+@media only screen and (max-width: 995px) {
+  .y-logo {
+    margin: 10%; }
+
+  .logo-gladys {
+    width: 70%; }
+
+  .two-page {
+    text-align: left;
+    position: relative;
+    background-image: url("../images/blanco.jpg");
+    background-size: cover;
+    background-repeat: no-repeat 50% 50%;
+    height: 100vh; }
+
+  .title-aboutme {
+    margin-left: 5%; }
+
+  .show-grid-acerca {
+    margin-top: 2%; }
+
+  p {
+    font-size: 95%;
+    font-family: 'Vollkorn SC', serif;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0%; } }
+.img-logo {
+  width: 150%; }
+
+.row {
+  margin-right: 0px;
+  margin-left: 0px; }
+
+* {
+  box-sizing: border-box; }
+
+.row, .prueba2 {
+  padding: 0px; }
+
+.iname, .ifilos, .ifil {
+  color: white;
+  text-align: center;
+  font-weight: bold; }
+
+.name {
+  font-family: 'Vollkorn SC', serif; }
+
+.iname {
+  background: #011053;
+  top: 0; }
+
+.ifil {
+  text-align: left;
+  color: #6E6F70; }
+
+.parallax {
+  background: #FFFFFF fixed no-repeat 50% 50%;
+  background-size: cover; }
+
+.one-page {
+  background-image: url("../images/img-1-y.jpg");
+  background-size: cover;
+  background-repeat: no-repeat 50% 50%;
+  height: 100vh; }
+
+.mas {
+  background: #011053; }
+
+.yo-div {
+  background: rgba(255, 255, 255, 0.6);
+  z-index: 100;
+  margin-top: 15%;
+  width: 100%; }
+
+.titulo-nombre {
+  text-align: center;
+  color: #011d9b;
+  font-family: 'Vollkorn SC', serif;
+  font-size: 300%; }
+
+.ifilhola {
+  text-align: center;
+  color: #0347C7;
+  font-size: 180%; }
+
+.cont-icon-d {
+  text-align: right; }
+
+.masfiv {
+  text-align: center;
+  border-radius: 50%;
+  background: rgba(156, 157, 160, 0.5);
+  height: 50%; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,76 @@
+
+
+// @import url('https://fonts.googleapis.com/css?family=Rozha+One');
+
+.row{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+@import '_variables';
+*{
+    box-sizing: border-box;  
+}
+.row,.prueba2{
+    padding: 0px;
+}
+.iname,.ifilos,.ifil{
+    color: $color-white;
+    text-align: center;
+    font-weight: bold;   
+}
+
+.name{
+    font-family:'Vollkorn SC', serif;
+}
+
+.iname{
+    background:rgb(1, 16, 83);
+    top: 0;  
+}
+
+.ifil{
+    text-align: left;
+    color:#6E6F70;
+}
+
+.parallax{
+    background: #FFFFFF fixed no-repeat 50% 50%;
+    background-size: cover; 
+  }
+
+.one-page{
+    background-image: url('../images/img-1-y.jpg');
+    background-size: cover;
+    background-repeat: no-repeat 50% 50%;
+    height: 100vh;
+}
+
+.mas{
+    background: rgb(1, 16, 83);
+}
+
+.yo-div{
+background:rgba(255, 255, 255, 0.6);
+z-index: 100;
+margin-top: 15%;
+width:100%;
+}
+
+.titulo-nombre{
+    text-align: center;
+    color: rgb(1, 29, 155);
+    font-family:'Vollkorn SC', serif;
+    font-size: 300%;
+}
+
+.ifilhola{
+    text-align: center;
+    color: #0347C7;
+    font-size: 180%;
+}
+
+.cont-icon-d{
+    text-align:right;
+}
+

@@ -1,0 +1,128 @@
+@import '_variables';
+*{
+  // outline: solid 2px red;
+  // overflow-x: hidden;
+}
+.about{
+    background:rgba(6, 21, 88, 0.9);
+    // margin-top: 25%;
+    border-right: solid 2px #2E2D2D;
+    border-bottom: solid 2px #2E2D2D;
+    color: white;
+  }
+.mas{
+    background:hsl(229, 65%, 26%);
+    color:$color-white;
+    width: 50%;
+    text-align: center;
+}
+
+.parallax2{
+  background: #D41010 fixed no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.two-page{
+      background-image: url('../images/two.jpg');
+      background-size: cover;
+      background-repeat: no-repeat 50% 50%;
+      height: 100vh;
+background-color: rgba(6, 21, 88, 0.5)
+  }
+  .contenido-aboutme{
+    z-index: 1000;
+  }
+.abouttext{
+  background:rgba(6, 21, 88, 0.5);
+  height: 80%;
+}
+
+.imggladys .y-logo{
+  -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+  // border-radius: 50px;
+  border-radius: 5em/5em;
+}
+
+.title{
+  font-family:'Vollkorn SC', serif;
+  text-align: left;
+  color: rgb(1, 29, 155);
+  font-weight: bold;
+  margin-top: 3%;
+  margin-left: 5%;
+}
+
+.title-aboutme{
+  margin-top: 0px;
+  padding-top: 10%;
+  margin-left: 55%;
+}
+
+
+.y-logo{
+  margin: 0px;
+}
+
+.logo-gladys{
+  width: 80%;
+}
+
+p{
+  font-size: 120%;
+  font-family: 'Vollkorn SC', serif;
+  font-family: 'Montserrat', sans-serif;
+  margin:0%;
+}
+
+.show-grid-acerca{
+  margin-top: 7%;
+}
+
+.yotexto{
+  margin-top: 2%; 
+}
+
+.mas{
+  margin-top: 5%;
+  width: 30%;
+}
+@media only screen and (max-width: 995px) {
+  .y-logo{
+    margin: 10%;
+  }
+
+  .logo-gladys{
+    width: 70%;
+  }
+
+	.two-page{
+    text-align: left;
+		position: relative;
+		background-image: url('../images/blanco.jpg');
+		background-size: cover;
+		background-repeat: no-repeat 50% 50%;
+		height: 100vh; 
+  }
+  
+  .title-aboutme{
+    margin-left: 5%;
+  }
+
+  .show-grid-acerca{
+    margin-top: 2%;
+  }
+
+  p{
+  font-size: 95%;
+  font-family: 'Vollkorn SC', serif;
+  font-family: 'Montserrat', sans-serif;
+  margin:0%;
+}
+
+}
+
+.img-logo{
+  width: 150%;  
+}
+

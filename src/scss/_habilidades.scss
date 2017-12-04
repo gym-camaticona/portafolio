@@ -1,0 +1,179 @@
+@import '_variables';
+.skill{
+    padding: 1%;
+    margin-top: 60%;
+}
+
+.parallax3{
+    background: #D41010 fixed no-repeat 50% 50%;
+    background-size: cover;
+  }
+
+.three-page{
+    background-image: url('../images/blanco.jpg');
+    background-size: cover;
+    background-repeat: no-repeat 50% 50%;
+    height: 100vh; 
+}
+
+.imghab{
+    width: 90%;
+    margin: 10% 0%;
+}
+
+.colorblue{
+	color: blue;
+}
+
+.grid{
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.p-habilidades{
+	color:  #0347C7;
+}
+
+.grid:hover{
+	-webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+}
+
+.show-grid-habilidades{
+	margin-top: 5%;
+}
+
+i{
+	font-size: 700%;
+}
+
+.habilidadesicon{
+	margin-top: 2%;
+}
+////////////////////////////////////////////////////
+.absuluto{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+// div .camara{
+// 	position: relative;
+// 	overflow: hidden;
+// 	max-width: 500px;
+// 	max-height: 333px;
+// 	display: block;
+// 	margin: 40px auto;
+
+// 	&:hover{
+// 		img{
+// 			transform: translateY(0);
+// 		}
+// 		div.texto{
+// 			&:before, &:after{
+// 				transform: scale(1);
+// 			}
+// 			h2{
+// 				transform: translateY(0);
+// 			}
+// 			p{
+// 				transform: translateY(0);
+// 				opacity: 1;
+// 			}
+// 		}
+// 	}
+
+// 	img{
+// 		position: relative;
+// 		display: block;
+// 		// width: call(100% + 50%);
+// 		transform: translateY(-30px);
+// 		transition: transform 0.35%;
+// 	}
+
+// 	a{
+// 		z-index: 100;
+// 	}
+
+// 	div.texto{
+// 		text-align: center;
+// 		color: white;
+// 		font-family: sans-serif;
+
+// 		&:before{
+// 			content: '';
+// 			position: absolute;
+// 			top: 50px;
+// 			bottom: 50px;
+// 			left: 30px;
+// 			right: 30px;
+// 			border-top: 1px solid white;
+// 			border-bottom: 1px solid white;
+// 			transform: scale(0, 1);
+// 			transform-origin: 0 0; 
+// 			transition: transform 0.35s;
+// 		}
+
+// 		&:after{
+// 			content: '';
+// 			position: absolute;
+// 			top: 30px;
+// 			bottom: 30px;
+// 			left: 50px;
+// 			right: 50px;
+// 			border-top: 1px solid white;
+// 			border-bottom: 1px solid white;
+// 			transform: scale(1, 0);
+// 			transform-origin: 100% 0;
+// 			transition: transform 0.35%;
+// 		}
+
+// 		h2{
+// 			padding: 26%;
+// 			transform: translate(-30%);
+// 			transition: transform 0.35s;
+// 		}
+
+// 		p{
+// 			padding: 10px 50px;
+// 			font-size: 20px;
+// 			transform: translate(-20px);
+// 			opacity: 0;
+// 			transition: opacity 0.35s,transform 0.35s;
+// 		}
+// 	}
+// }
+
+@media only screen and (max-width: 903px) {
+	.parallax3{
+		background: #D41010 fixed no-repeat 50% 50%;
+		background-size: cover;
+	  }
+	
+	.three-page{
+		position: relative;
+		background-image: url('../images/blanco.jpg');
+		background-size: cover;
+		background-repeat: no-repeat 50% 50%;
+		height: 100vh; 
+	}
+.three-page{
+	font-size: 10px;
+}
+
+	// i{
+	// 	font-size: 500%;
+	// }
+	
+	// svg{
+	// 	width: 60%;
+	// }
+
+	// figcaption .p-habjlidades{
+	// 	visibility: hidden;
+	// 	font-size:70%;
+	// }
+}
+
+
